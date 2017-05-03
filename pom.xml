@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Brixton.M4</version>
+        <version>Brixton.RELEASE</version>
         <!-- lookup parent from repository -->
     </parent>
 
@@ -47,9 +47,9 @@
             <version>4.5.1</version>
         </dependency>
         <dependency>
-            <groupId>se.aftonbladet</groupId>
+            <groupId>fi.solita.utils</groupId>
             <artifactId>functional-utils</artifactId>
-            <version>0.0.11</version>
+            <version>0.9.22</version>
         </dependency>
 
         <dependency>

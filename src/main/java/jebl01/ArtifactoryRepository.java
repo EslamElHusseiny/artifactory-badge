@@ -8,14 +8,14 @@ import org.apache.http.client.utils.URIBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import se.aftonbladet.utils.functional.Either;
+import fi.solita.utils.functional.Either;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
 
-import static se.aftonbladet.utils.functional.Either.left;
-import static se.aftonbladet.utils.functional.Either.right;
+import static fi.solita.utils.functional.Either.left;
+import static fi.solita.utils.functional.Either.right;
 
 /**
  * Created by jesblo on 15-12-22.

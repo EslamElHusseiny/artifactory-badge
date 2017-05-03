@@ -2,7 +2,7 @@ package jebl01;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import se.aftonbladet.utils.functional.Either;
+import fi.solita.utils.functional.Either;
 
 import javax.imageio.ImageIO;
 import javax.ws.rs.GET;
@@ -37,7 +37,7 @@ public class ArtifactsEndpoint {
         return output -> ImageIO.write(
             BadgeGenerator.generate(
                 "artifactory",
-                result.getRight().orElseGet(() -> result.getLeft().get()),
+                Either.get(result),
                 result.isRight()),
             "png",
             output);
