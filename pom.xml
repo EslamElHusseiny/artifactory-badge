@@ -18,6 +18,16 @@
         <!-- lookup parent from repository -->
     </parent>
 
+    <repositories>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/solita/functional-utils</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+    </repositories>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -49,7 +59,7 @@
         <dependency>
             <groupId>fi.solita.utils</groupId>
             <artifactId>functional-utils</artifactId>
-            <version>0.9.22</version>
+            <version>0.9.83</version>
         </dependency>
 
         <dependency>
